@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <!-- 6- Window Object Exercises -->
     <!-- div for alert message -->
@@ -13,20 +15,20 @@
         <button onclick="alertMessage()">Click me</button>
     </div>
     <!-- div for greeting user -->
-     <div>
+    <div>
         <h1>Click the button to be greeted</h1>
         <button onclick="greeting()">Greeting</button>
-     </div>
+    </div>
 
     <!-- 7- DOM Manipulation Exercises -->
-     <!-- First exercise -->
-     <div id="changeContent" style="margin-top: 20px;">
-         Click the button to change the text!
+    <!-- First exercise -->
+    <div id="changeContent" style="margin-top: 20px;">
+        Click the button to change the text!
         <button onclick="changeContent()" style="display: block;">Change</button>
-     </div>
+    </div>
 
-     <!-- Second exercise -->
-     <div>
+    <!-- Second exercise -->
+    <div>
         <h2>Shopping List</h2>
         <ul id="list">
             <li>Tomatoes</li>
@@ -35,27 +37,28 @@
             <li>Cheese</li>
         </ul>
         <button onclick="addItem()">Add Item</button>
-     </div>
+    </div>
 
-     <!-- Third exercise -->
-      <div style="margin-top: 20px;">
-        <img id="img" src="https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg" alt="nature image" style="width: 400px;">
+    <!-- Third exercise -->
+    <div style="margin-top: 20px;">
+        <img id="img" src="https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg" alt="nature image"
+            style="width: 400px;">
         <button onclick="changeImage()" style="display: block;">Change the image</button>
-      </div>
+    </div>
 
-      <!-- Fourth exercise -->
-      <div style="margin-top: 20px;">
+    <!-- Fourth exercise -->
+    <div style="margin-top: 20px;">
+        <h1>Sign in form</h1>
         <form id="loginForm">
             <label for="user_name">User Name: </label>
-            <input type="text" id="user_name" name="username">
+            <input type="text" id="user_name" name="username"><br><br>
             <label for="password">Password: </label>
-            <input type="password"  id="password" name="pass">
+            <input type="password" id="password" name="pass"><br><br>
             <input type="submit" value="Login" onclick="validate()">
         </form>
-      </div>
+    </div>
 
-
-   <script src="script1.js"></script> 
-
+    <script src="script1.js"></script>
 </body>
+
 </html>
